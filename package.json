@@ -1,0 +1,28 @@
+{
+  "name": "mock-backend",
+  "version": "1.0.0",
+  "description": "Mock backend for product feedback",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdul-Raziq1/Mock-Backend.git"
+  },
+  "author": "Abdul-Raziq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdul-Raziq1/Mock-Backend/issues"
+  },
+  "homepage": "https://github.com/Abdul-Raziq1/Mock-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "json-server": "^0.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
